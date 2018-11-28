@@ -39,6 +39,13 @@ php artisan vendor:publish
 
 ```
 
+Look your directory: 
+
+```
+[Myapp]/resource/views/vendor/
+
+ ```
+
 ## Migrate database 
 
 Table name:  contacts
@@ -47,13 +54,6 @@ Table name:  contacts
 php artisan migrate
 
 ``` 
-
-Look your directory: 
-
-```
-[Myapp]/resource/views/vendor/
-
- ```
 
 Configure your email from:
 
