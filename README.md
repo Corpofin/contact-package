@@ -8,3 +8,48 @@
 
 
 ## This will send email to admin and save contact query in database
+
+
+### Installation
+
+```sh
+$ composer require gbcsoft/contact
+``` 
+First Step: 
+
+Register ServiceProvider  in: 
+
+```
+confing/app.php
+```
+
+```
+ 'providers' => [
+     Gbcsoft\Contact\ContactServiceProvider::class,
+]
+```
+
+
+Second Step: 
+
+If you need personalized message form, execute this command.
+
+```
+php artisan vendor:publish
+
+```
+
+Look your directory: 
+
+```
+[Myapp]/resource/views/vendor/
+
+ ```
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
