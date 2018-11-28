@@ -1,6 +1,6 @@
 {
     "name": "gbcsoft/contact",
-    "description": "This is my first package, this will send email to admin and save contact query in database",
+    "description": "This will send email to admin and save contact query in database ",
     "type": "library",
     "license": "MIT",
     "authors": [
