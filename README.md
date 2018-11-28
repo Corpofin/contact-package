@@ -46,6 +46,13 @@ Look your directory:
 
  ```
 
+Configure your email from:
+
+```
+app/contact.php
+
+```
+
 License
 ----
 
