@@ -39,6 +39,15 @@ php artisan vendor:publish
 
 ```
 
+## Migrate database 
+
+Table name:  contacts
+
+```
+php artisan migrate
+
+``` 
+
 Look your directory: 
 
 ```
